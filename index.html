@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toki Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar"></div>
+
+        <div class="fillBar">
+            <div id="header" class="header">
+                <h3>GET STARTED</h3>
+                <p>This is not a real online service! Sign up now to get started.</p>
+            </div>
+            <form id="formBar" action="#" method="get">
+
+                <h3>Let's do this!</h3>
+                <fieldset>
+                    <div class="r1">
+                        <div class="c1">
+                            <div>
+                                <label for="firstName">First Name</label>
+                            </div>
+                            <input type="text" id="firstName" name="firstName" placeholder="First name..." required>
+                        </div>
+
+                        <div class="c1">
+                            <div>
+                                <label for="lastName">Last Name</label>
+                            </div>
+                            <input type="text" id="lastName" name="lastName" placeholder="Last name..." required>
+                        </div>
+                    </div>
+
+                    <div class="r1">
+                        <div class="c1">
+                            <div>
+                                <label for="email">Email</label>
+                            </div>
+                            <input type="email" id="email" name="email" required >
+                        </div>
+
+                        <div class="c1">
+                            <div>
+                                <label for="PhoneNumber">Phone Number</label>
+                            </div>
+                            <input type="number" id="PhoneNumber" name="PhoneNumber" required>
+                        </div>
+                    </div>
+
+                    <div class="r1">
+                        <div class="c1">
+                            <div>
+                                <label for="password">Password</label>
+                            </div>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+
+                        <div class="c1">
+                            <div>
+                                <label for="passwordTwo">Confirm Password</label>
+                            </div>
+                            <input type="password" id="passwordTwo" name="passwordTwo" required>
+                        </div>
+                    </div>
+         
+                </fieldset>
+                <button type="submit">Submit</button>
+           
+              </form>
+
+
+            <div id="CreateTab" class="accountCreationTab">
+                <p>Already have an Account? <a href="#" class="LogIn">Log In</a> </p>
+            </div>
+
+        </div>
+    </div>
+   
+</body>
+</html>
